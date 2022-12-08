@@ -1,0 +1,394 @@
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(-140deg, black, white);
+  background-size: 1000% 1000%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fade 5s ease infinite;
+}
+
+header {
+  background: linear-gradient(45deg, grey, royalblue);
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
+}
+
+label {
+  font-weight: 800;
+}
+
+nav {
+  position: relative;
+  float: right;
+  top: 20px;
+  margin: 0px 20px 0px 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "✩";
+  width: 10px;
+  color: black;
+  margin: 0px 10px 0px 0px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 0px 0px 0px;
+  color: white;
+  font-family: "Azeret Mono", "Times New Roman";
+  background: linear-gradient(45deg, grey, royalblue);
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
+}
+
+.about-me-paragraph {
+  color: black;
+  margin: 100px 0px 200px 0px;
+  width: 500px;
+  text-align: left;
+  font-size: 20px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 8px rgb(0, 48, 0);
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-me-title {
+  text-shadow: -2px 2px black;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.all-highlights {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.black-line {
+  width: 80vw;
+  border: 1px solid black;
+  margin: 1px 0px 0px 0px;
+}
+
+.credit {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 18px;
+ text-align: center;
+
+}
+
+.credit-link {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 18px;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ color: royalblue;
+ margin: 0px 0px 20px 0px;
+ text-shadow: -1px 1px black;
+}
+
+.credit-link:hover {
+  color: white;
+}
+
+.donovan-link {
+  color: royalblue;
+  font-weight: 800;
+}
+
+.donovan-link:hover {
+  color: orange;
+}
+
+.first-name {
+  font-family: "Azeret Mono", "Times New Roman";
+  font-size: 60px;
+  color: white;
+  text-shadow: -2px 2px black;
+  margin: 0px;
+}
+
+.headshot {
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin: -50px 175px 50px 0px;
+  border: solid 5px royalblue;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: -5px 5px black;
+}
+
+.highlight {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 70px 100px 0px 100px;
+}
+
+.highlight-image {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: white;
+  border: 5px solid white;
+}
+
+.highlight-image:hover {
+  border: 5px solid rgb(0, 48, 0);
+}
+
+.highlight-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.highlight-title {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Azeret Mono", "Times New Roman";
+  margin: 0px 0px 30px 0px;
+  font-size: 20px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(0, 48, 0);
+}
+
+.instagram {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.instagram:hover {
+  opacity: 30%;
+}
+
+.last-name {
+  font-family: "Azeret Mono", "Times New Roman";
+  font-size: 60px;
+  color: white;
+  text-shadow: -2px 2px black;
+  margin: 0px 0px 0px 100px;
+}
+
+.list {
+  margin: 100px 0px 200px 100px;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 8px rgb(0, 48, 0);
+}
+
+.my-highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px 0px 0px;
+  padding: 50px 0px 50px 0px;
+  background: linear-gradient(45deg, grey, royalblue);
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
+}
+
+.my-highlights-title {
+  color: white;
+  text-shadow: -2px 2px black;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Azeret Mono", "Times New Roman";
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+  width: 350px;
+}
+
+.my-socials {
+  margin: 100px 0px 100px 0px;
+  background: linear-gradient(45deg, grey, royalblue);
+  border-radius: 30px;
+  border: solid 5px white;
+  height: auto;
+  width: 90vw;
+  box-shadow: -10px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-socials-title {
+  color: white;
+  text-shadow: -2px 2px black;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Azeret Mono", "Times New Roman";
+  margin: 50px 0px 50px 0px;
+  width: 300px;
+}
+
+.name {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  top: 130px;
+  margin: 0px 0px 0px 150px;
+  font-weight: 800;
+}
+
+.nav-link {
+  margin: 0px 20px 0px 20px;
+  color: white;
+  text-shadow: -1.5px 1.5px black;
+  font-size: 25px;
+  font-family: "Azeret Mono", "Times New Roman";
+}
+
+.nav-link:hover {
+  color: black;
+  text-shadow: -1px 1px white;
+}
+
+.page-break {
+  width: 80vw;
+}
+
+
+.social {
+  margin: 50px;
+}
+
+.socials {
+  margin: 100px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 0px 0px 100px 0px;
+}
+
+.twitter {
+  width: auto;
+  height: 150px;
+  display: inline-block;
+}
+
+.twitter:hover {
+  opacity: 30%;
+}
+
+.white-line {
+  width: 80vw;
+  border: 1px solid white;
+  margin: -4px 0px 0px 2px;
+}
+
+@media screen and (max-width: 1100px) {
+  header {
+    width: auto;
+  }
+  
+  .about-me {
+    width: auto;
+  }
+
+  .about-me-paragraph {
+    margin: 100px 0px 50px 0px;
+  }
+
+  .list {
+    margin: 50px;
+  }
+
+  .headshot {
+    display: none;
+  }
+
+  .my-highlight {
+    width: auto;
+  }
+
+  .my-socials {
+    width: auto;
+  }
+
+  .name {
+    padding: 0px 0px 200px 0px;
+  }
+}
+
+@keyframes fade {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
